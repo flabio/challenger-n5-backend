@@ -1,0 +1,15 @@
+paso 0:
+   docker-compose up
+paso 1:
+    docker-compose run web python3 manage.py makemigrations
+
+paso 2:
+    docker-compose run web python3 manage.py migrate
+
+paso 3:
+    docker-compose run web python3 manage.py createsuperuser
+
+paseo 4:
+   docker-compose up
+
+
